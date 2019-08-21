@@ -10,10 +10,14 @@ function Hello() {
 export default Hello;
 */
 
-export default class Hello {
+class Hello {
     render() {
         return (
             <h2>Class React</h2>
         );
     }
 }
+
+const hello = new Hello();
+
+export default hello;
